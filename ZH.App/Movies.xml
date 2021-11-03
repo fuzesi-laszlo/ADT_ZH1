@@ -1,0 +1,143 @@
+﻿<?xml version = "1.0" encoding = "UTF-8"?>
+<Movies>
+  <Movie>
+    <Title>The Godfather</Title>
+    <Genre>Drama</Genre>
+    <Rating>R</Rating>
+    <YearOfRelease>1972</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Marlon Brando</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Al Pacino</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>James Caan</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Diane Keaton</Name>
+        <Sex>Female</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>The Shwashank Redemption</Title>
+    <Genre>Drama</Genre>
+    <Rating>PG-13</Rating>
+    <YearOfRelease>1994</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Tim Robbins</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Morgan Freeman</Name>
+        <Sex>Male</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>The Dark Knight</Title>
+    <Genre>Action</Genre>
+    <Rating>PG-13</Rating>
+    <YearOfRelease>2008</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Christian Bale</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Heath Ledger</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Maggie Gyllenhaal</Name>
+        <Sex>Female</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>Schindler's List</Title>
+    <Genre>Drama</Genre>
+    <Rating>PG-13</Rating>
+    <YearOfRelease>1993</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Liam Neeson</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Ralph Fiennes</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Caroline Goodall</Name>
+        <Sex>Female</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>Pulp Fiction</Title>
+    <Genre>Drama</Genre>
+    <Rating>R</Rating>
+    <YearOfRelease>1994</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>John Travolta</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Samuel L. Jackson</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Uma Thurman</Name>
+        <Sex>Female</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>Psycho</Title>
+    <Genre>Thriller</Genre>
+    <Rating>R</Rating>
+    <YearOfRelease>1960</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Anthony Perkins</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Vera Miles</Name>
+        <Sex>Female</Sex>
+      </Actor>
+      <Actor>
+        <Name>Janet Leigh</Name>
+        <Sex>Female</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+  <Movie>
+    <Title>The Lion King</Title>
+    <Genre>Drama</Genre>
+    <Rating>G</Rating>
+    <YearOfRelease>1994</YearOfRelease>
+    <Actors>
+      <Actor>
+        <Name>Matthew Broderick</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>Jeremy Irons</Name>
+        <Sex>Male</Sex>
+      </Actor>
+      <Actor>
+        <Name>James Earl Jones</Name>
+        <Sex>Male</Sex>
+      </Actor>
+    </Actors>
+  </Movie>
+</Movies>
