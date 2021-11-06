@@ -16,13 +16,13 @@ namespace ZH.App
             PropertyInfo requestedProperty = typeof(T).GetProperty(propertyName);
             if (requestedProperty is null)
             {
-                throw new ArgumentException($"'{nameof(requestedProperty)}' cannot be null.", nameof(requestedProperty));
+                throw new ArgumentException($"'{nameof(requestedProperty)}' cannot be null. The {nameof(T)} class should have the property you specify.", nameof(requestedProperty));
             }
 
             StringRangeAttribute strRangeAttr = requestedProperty.GetCustomAttribute<StringRangeAttribute>();
             if (strRangeAttr is null)
             {
-                throw new ArgumentException($"'{nameof(strRangeAttr)}' cannot be null.", nameof(strRangeAttr));
+                throw new ArgumentException($"'{nameof(strRangeAttr)}' cannot be null. The {nameof(T)} class does have the member (property) you specified but {nameof(StringRangeAttribute)} was not found on this property.", nameof(strRangeAttr));
             }
 
             return strRangeAttr.WhiteList.Contains(requestedProperty.GetValue(instance).ToString());
