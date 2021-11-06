@@ -15,7 +15,7 @@ namespace ZH.App
             }
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine($" *** BEGIN: {title} ");
+            Console.WriteLine($"\n *** BEGIN: {title} ");
             Console.ResetColor();
 
             foreach (T item in input)
@@ -24,7 +24,7 @@ namespace ZH.App
             }
 
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine($" ___ END OF {title} ___ (Press a key to continue...)");
+            Console.WriteLine($" ___ END OF {title} ___ (Press a key to continue...)\n");
             Console.ResetColor();
             Console.ReadKey();
         }
